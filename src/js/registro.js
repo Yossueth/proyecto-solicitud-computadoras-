@@ -1,4 +1,5 @@
-//import { get, post } from "./server/fetch";
+import { get, post } from "../services/users";
+
 let texto = document.getElementById("texto")
 let signUpForm = document.getElementById("signUpForm");
 signUpForm.addEventListener("submit", async (e) => {
@@ -46,3 +47,4 @@ signUpForm.addEventListener("submit", async (e) => {
   
   window.location.href = "login.html";
 });
+
