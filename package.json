@@ -1,0 +1,16 @@
+{
+  "name": "sistema-de-permiso",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/pages/index.html --open",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
