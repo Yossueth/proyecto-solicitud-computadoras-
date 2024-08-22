@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de Solicitudes</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+    <h1>Historial de Solicitudes de Permisos</h1>
+    
+    <div class="busContenedor">
+        <input type="text" id="buscador" placeholder="Buscar por estudiante, fecha, o estado">
+        <button id="btnBuscar" aria-label="Buscar solicitudes">Buscar</button>
+    </div>
+    
+    <table id="requestsTable">
+        <thead>
+            <tr>
+                <th>Fecha de Salida</th>
+                <th>Fecha de Regreso</th>
+                <th>Código de Computadora</th>
+                <th>Estado de Aprobación</th>
+                <th>Nombre de Estudiante</th>
+            </tr>
+        </thead>
+        <tbody id="requestsBody">
+            <!-- datos getUsuarios -->
+        </tbody>
+    </table>
+
+    <script type="module" src="../js/admin.js"></script>
+</body>
+</html>
