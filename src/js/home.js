@@ -26,7 +26,9 @@ formulario.addEventListener("submit", async (e) => {
   }
 
   if (!check.checked) {
-    alerta.innerHTML = setTimeout(() => {
+    alerta.innerHTML = "Acepta los terminos y condiciones";
+
+    setTimeout(() => {
       alerta.innerHTML = "";
     }, 2000);
     return;
