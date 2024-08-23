@@ -13,7 +13,7 @@ function agregarDatosATabla(datos) {
 datos.forEach(item => {
     
     const fila = document.createElement("tr");
-    fila.id="filaU"
+   
 
     const celdaFechaEntrada = document.createElement("td");
     celdaFechaEntrada.textContent = item.fechaEntrada;
@@ -36,6 +36,10 @@ datos.forEach(item => {
     const celdaNombre = document.createElement("td")
     celdaNombre.textContent = item.nombre;
     fila.appendChild(celdaNombre);
+
+    const celdaEstadoSolicitud = document.createElement("td")
+    celdaEstadoSolicitud.textContent = item.solicitud;
+    fila.appendChild(celdaEstadoSolicitud);
 
     const btnEliminar = document.createElement("button")
     btnEliminar.innerHTML= "Eliminar"
