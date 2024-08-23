@@ -19,5 +19,12 @@
       "solicitud": "Aceptada"
     }
   ],
-  "users": []
+  "users": [
+    {
+      "id": "3e91",
+      "name": "pepe",
+      "email": "pepe@pepe",
+      "password": "12345678"
+    }
+  ]
 }
