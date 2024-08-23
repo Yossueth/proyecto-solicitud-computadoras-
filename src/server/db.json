@@ -1,22 +1,6 @@
 {
   "datos": [
     {
-      "id": "d7a0",
-      "nombre": "carlor",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-21",
-      "fechaEntrada": "2024-08-25",
-      "codePc": "99RD7S2"
-    },
-    {
-      "id": "e17f",
-      "nombre": "etyuk",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-02",
-      "fechaEntrada": "2024-08-15",
-      "codePc": "99RD7S2"
-    },
-    {
       "id": "6fae",
       "nombre": "gustabo",
       "sede": "Nosara",

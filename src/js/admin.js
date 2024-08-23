@@ -6,15 +6,14 @@ import { getDatos, deleteDatos } from "../services/datos";
 
 function agregarDatosATabla(datos) {
 
-    console.log("hola", datos);
     
     const cuerpoTabla = document.getElementById("requestsBody")
     cuerpoTabla.innerHTML="";
 
 datos.forEach(item => {
-    console.log("item",item);
     
     const fila = document.createElement("tr");
+    fila.id="filaU"
 
     const celdaFechaEntrada = document.createElement("td");
     celdaFechaEntrada.textContent = item.fechaEntrada;
@@ -44,8 +43,8 @@ datos.forEach(item => {
 
     cuerpoTabla.appendChild(fila);
 
-    btnEliminar.addEventListener("click", ()=>{
-        deleteDatos(item)
+    btnEliminar.addEventListener("click",()=>{
+        deleteDatos(item.id)
 
         .then(()=>{
             fila.remove()
