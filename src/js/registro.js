@@ -26,7 +26,7 @@ signUpForm.addEventListener("submit", async (e) => {
     return
    
   }
-  let userList = await get || [];
+  let userList = await get() || [];
   let userRegister = userList.find((user) => user.email === email);
 
   if (userRegister) {

@@ -19,5 +19,24 @@
       "solicitud": "Aceptada"
     }
   ],
-  "users": []
+  "users": [
+    {
+      "id": "eb22",
+      "name": "Marco Antonio",
+      "email": "medina@medina",
+      "password": "12345678"
+    },
+    {
+      "id": "074b",
+      "name": "Ale",
+      "email": "fwd@medina",
+      "password": "12345678"
+    },
+    {
+      "id": "a09b",
+      "name": "Ale",
+      "email": "fwd@medinass",
+      "password": "12345678"
+    }
+  ]
 }
