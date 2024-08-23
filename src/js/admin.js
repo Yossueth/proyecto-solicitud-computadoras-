@@ -1,44 +1,62 @@
 
 
-import { getDatos } from "../services/datos";
+import { getDatos, deleteDatos } from "../services/datos";
 
 
 
 function agregarDatosATabla(datos) {
 
-    console.log("hola", datos);
     
     const cuerpoTabla = document.getElementById("requestsBody")
     cuerpoTabla.innerHTML="";
 
 datos.forEach(item => {
-    console.log("item",item);
     
     const fila = document.createElement("tr");
-
-    const celdaFechaSalida = document.createElement("td");
-    celdaFechaSalida.textContent= item.celdaFechaSalida;
-    fila.appendChild(celdaFechaSalida);
+    fila.id="filaU"
 
     const celdaFechaEntrada = document.createElement("td");
-    celdaFechaEntrada.textContent = item.celdaFechaEntrada;
+    celdaFechaEntrada.textContent = item.fechaEntrada;
     fila.appendChild(celdaFechaEntrada);
 
-    const celdaIdComputadora = document.createElement("td");
-    celdaIdComputadora.textContent = item.celdaIdComputadora;
-    fila.appendChild(celdaIdComputadora)
 
-    const celdaAprobacion = document.createElement("td")
-    celdaAprobacion.textContent = item.celdaAprobacion;
-    fila.appendChild(celdaAprobacion);
+    const celdaFechaSalida = document.createElement("td");
+    celdaFechaSalida.textContent= item.fechaSalida;
+    fila.appendChild(celdaFechaSalida);
+
+   
+    const celdaCodeComputadora = document.createElement("td");
+    celdaCodeComputadora.textContent = item.codePc;
+    fila.appendChild(celdaCodeComputadora);
+
+    const celdaSede = document.createElement("td")
+    celdaSede.textContent = item.sede;
+    fila.appendChild(celdaSede);
     
     const celdaNombre = document.createElement("td")
-    celdaNombre.textContent = item.celdaNombre;
+    celdaNombre.textContent = item.nombre;
     fila.appendChild(celdaNombre);
 
+    const btnEliminar = document.createElement("button")
+    btnEliminar.innerHTML= "Eliminar"
+    fila.appendChild(btnEliminar);
 
     cuerpoTabla.appendChild(fila);
+
+    btnEliminar.addEventListener("click",()=>{
+        deleteDatos(item.id)
+
+        .then(()=>{
+            fila.remove()
+        })
+        .catch((error)=> {
+            console.error("Error al eliminar", error)
+        })
+    })
+
     
+
+
 });
 };
 
@@ -88,13 +106,20 @@ function filtrar() {
    filas.forEach(fila => {
    fila.style.display = filasFiltradas.includes(fila) ? "" : "none";
 
-    
+
 });
 }
 
 
+const btnAtras = document.getElementById("btnAtras");
+btnAtras.addEventListener("click", function () {
+    window.location.href = ""
+});
 
-/////////
+
+
+
+
 
 
 

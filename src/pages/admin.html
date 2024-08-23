@@ -10,18 +10,22 @@
     <h1>Historial de Solicitudes de Permisos</h1>
     
     <div class="busContenedor">
-        <input type="text" id="buscador" placeholder="Buscar por estudiante, fecha, o estado">
+        <input type="text" id="buscador" placeholder="Buscar por estudiante, fecha, o codigo de computadora">
         <button id="btnBuscar" aria-label="Buscar solicitudes">Buscar</button>
+        <button id="btnAtras">Regresar</button>
     </div>
     
     <table id="requestsTable">
         <thead>
             <tr>
+                
+                <th>Fecha de Entrada</th>
                 <th>Fecha de Salida</th>
-                <th>Fecha de Regreso</th>
                 <th>Código de Computadora</th>
-                <th>Estado de Aprobación</th>
+                <th>Cede instituto</th>
                 <th>Nombre de Estudiante</th>
+                <th>Estado de solicitud</th>
+                <th></th>
             </tr>
         </thead>
         <tbody id="requestsBody">
