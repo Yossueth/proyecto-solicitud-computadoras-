@@ -14,7 +14,7 @@ export async function getDatos() {
 }
 
 // POST
-export async function postDatos(data) {
+ export async function postDatos(data) {
   try {
     const response = await fetch("http://localhost:3000/datos", {
       method: "POST",
@@ -37,9 +37,18 @@ export async function postDatos(data) {
 }
 
 // PUT
-export async function putDatos(data, id) {
+export async function putDatos(nombre,sede,fechaSalida,fechaEntrada,codePc,solicitud,id) {
+  let data={
+    id,
+    nombre,
+    sede,
+    fechaSalida,
+    fechaEntrada,
+    codePc,
+    solicitud
+  }
   try {
-    const response = await fetch("http://localhost:3000/datos" + id, {
+    const response = await fetch(`http://localhost:3000/datos/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -58,6 +67,7 @@ export async function putDatos(data, id) {
     throw error;
   }
 }
+
 
 // DELETE
 export async function deleteDatos(id) {
