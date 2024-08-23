@@ -1,4 +1,4 @@
-import { get } from "../services/fetch";
+import { get } from "../services/users";
 
 let loginForm = document.getElementById("loginForm");
 let texto = document.getElementById("texto");

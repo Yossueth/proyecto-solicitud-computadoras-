@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/pages/index.html --open",
-    "server": "json-server --watch db.json --port 3000"
+    "server": "json-server --watch src/server/db.json --port 3000"
   },
   "keywords": [],
   "author": "",
