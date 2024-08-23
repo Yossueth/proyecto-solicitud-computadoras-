@@ -23,5 +23,5 @@ loginForm.addEventListener("submit", async (e) => {
     return;
   }
 
-  window.location.href = "home.html";
+  window.location.href = "http://localhost:1234/home.html";
 });
