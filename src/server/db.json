@@ -21,21 +21,10 @@
   ],
   "users": [
     {
-      "id": "eb22",
-      "name": "Marco Antonio",
-      "email": "medina@medina",
-      "password": "12345678"
-    },
-    {
-      "id": "074b",
-      "name": "Ale",
-      "email": "fwd@medina",
-      "password": "12345678"
-    },
-    {
-      "id": "a09b",
-      "name": "Ale",
-      "email": "fwd@medinass",
+
+      "id": "3e91",
+      "name": "pepe",
+      "email": "pepe@pepe",
       "password": "12345678"
     }
   ]
