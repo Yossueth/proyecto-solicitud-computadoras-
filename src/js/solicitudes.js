@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { getDatos, putDatos } from "../services/datos";
 
 
@@ -99,3 +100,5 @@ btnHistorial.addEventListener("click", function () {
 //   await putDatos(element.id, { solicitud: "Aceptada" });
 //   solicitud.innerHTML = "Aceptada";
 // });
+=======
+>>>>>>> ef50b244f187440996ab397606eca35507f94834

@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "parcel src/pages/admin.html --open",
+=======
+    "start": "parcel src/pages/solicitudes.html --open",
+>>>>>>> ef50b244f187440996ab397606eca35507f94834
     "server": "json-server --watch src/server/db.json --port 3000"
   },
   "keywords": [],
