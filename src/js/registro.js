@@ -7,6 +7,7 @@ signUpForm.addEventListener("submit", async (e) => {
   let name = document.getElementById("name").value;
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
+
   if (password.length < 8) {
     texto.innerHTML =
       "La contraseña es demasiado corta. Debe tener al menos 8 caracteres.";
@@ -23,23 +24,32 @@ signUpForm.addEventListener("submit", async (e) => {
     }, 2000);
     return;
   }
-  let userList = await get() || [];
+  let userList = (await get()) || [];
   let userRegister = userList.find((user) => user.email === email);
 
-  if (userRegister) {
-    texto.innerHTML =
-      "Un usuario con esa dirección de correo electrónico ya está registrado 😭";
+  try {
+    if (userRegister) {
+      texto.innerHTML =
+        "Un usuario con esa dirección de correo electrónico ya está registrado 😭";
+      setTimeout(() => {
+        texto.innerHTML = "";
+      }, 2000);
+      return;
+    }
+    await post({ name: name, email: email, password: password });
+
+    texto.innerHTML = "Registro exitoso 👌";
     setTimeout(() => {
       texto.innerHTML = "";
     }, 2000);
+    window.location.href = "http://localhost:1234/login.html";
     return;
+  } catch (error) {
+    // Manejo de errores
+    texto.innerHTML = "Ocurrió un error. Por favor, inténtalo de nuevo.";
+    setTimeout(() => {
+      texto.innerHTML = "";
+    }, 2000);
+    console.error("Error en el registro:", error);
   }
-  await post({ name: name, email: email, password: password });
-
-  texto.innerHTML = "Registro exitoso 👌";
-  setTimeout(() => {
-    texto.innerHTML = "";
-  }, 2000);
-  window.location.href = "http://localhost:1234/login.html";
-  return;
 });
