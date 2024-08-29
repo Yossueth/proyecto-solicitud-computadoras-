@@ -13,7 +13,7 @@ function agregarDatosATabla(datos) {
 datos.forEach(item => {
     
     const fila = document.createElement("tr");
-   
+    
 
     const celdaFechaEntrada = document.createElement("td");
     celdaFechaEntrada.textContent = item.fechaEntrada;
@@ -43,6 +43,7 @@ datos.forEach(item => {
 
     const btnEliminar = document.createElement("button")
     btnEliminar.innerHTML= "Eliminar"
+    btnEliminar.className= "bottonE"
     fila.appendChild(btnEliminar);
 
     cuerpoTabla.appendChild(fila);
@@ -55,14 +56,16 @@ datos.forEach(item => {
         })
         .catch((error)=> {
             console.error("Error al eliminar", error)
-        })
-    })
+        });
+    });
 
     
 
 
 });
 };
+
+
 
 document.addEventListener("DOMContentLoaded", async () => {
     try {
@@ -114,21 +117,11 @@ function filtrar() {
 });
 }
 
-
 const btnAtras = document.getElementById("btnAtras");
+
 btnAtras.addEventListener("click", function () {
-    window.location.href = ""
+    window.location.href = "http://localhost:1234/solicitudes.html"
 });
-
-
-
-
-
-
-
-
-
-
 
 
 

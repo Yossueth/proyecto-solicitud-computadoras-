@@ -10,21 +10,53 @@
       "solicitud": "Aceptada"
     },
     {
-      "id": "98de",
-      "nombre": "Patrickcito",
-      "sede": "el huerto",
-      "fechaSalida": "2024-08-11",
-      "fechaEntrada": "2024-09-07",
-      "codePc": "99RD7S2",
+      "id": "41d0",
+      "nombre": "Marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-23",
+      "fechaEntrada": "2024-08-30",
+      "codePc": "123",
       "solicitud": "Aceptada"
+    },
+    {
+      "id": "4224",
+      "nombre": "Hola",
+      "sede": "Santa Ana",
+      "fechaSalida": "2024-08-29",
+      "fechaEntrada": "2024-08-23",
+      "codePc": "ui",
+      "solicitud": "Aceptada"
+    },
+    {
+      "id": "e406",
+      "nombre": "Hola",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-14",
+      "fechaEntrada": "2024-09-07",
+      "codePc": "123",
+      "solicitud": "Aceptada"
+    },
+    {
+      "id": "bb31",
+      "nombre": "Hola45rt6yu",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-14",
+      "fechaEntrada": "2024-09-07",
+      "codePc": "123",
+      "solicitud": "Rechazada"
     }
   ],
   "users": [
     {
-
       "id": "3e91",
       "name": "pepe",
       "email": "pepe@pepe",
+      "password": "12345678"
+    },
+    {
+      "id": "c71f",
+      "name": "Marco",
+      "email": "medina@medina",
       "password": "12345678"
     }
   ]

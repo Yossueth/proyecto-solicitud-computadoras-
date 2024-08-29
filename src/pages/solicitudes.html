@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/solicitudes.css" />
-    <title>solicitudes</title>
-  </head>
-  <body>
-    <h1 id="title">Aprobación de Solicitudes</h1>
-    <div class="informacion"></div>
-    <script type="module" src="../js/solicitudes.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/solicitudes.css" />
+  <title>Aprobación de Solicitudes</title>
+</head>
+<body>
+
+  <h1 id="title">Aprobación de Solicitudes</h1>
+  
+  <button id="btnHistorial"></a></a>Historial</button>
+
+  
+  <table id="requestsTable">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Sede</th>
+        <th>Fecha de Salida</th>
+        <th>Fecha de Entrada</th>
+        <th>Code PC</th>
+        <th>Solicitud</th>
+        <th></th>
+        
+       
+      </tr>
+    </thead>
+    <tbody id="requestsBody">
+      <!-- Aquí se insertarán los datos dinámicamente -->
+    </tbody>
+  </table>
+
+  <script type="module" src="../js/solicitudes.js"></script>
+</body>
 </html>
