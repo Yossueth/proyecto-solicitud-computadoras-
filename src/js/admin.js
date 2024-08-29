@@ -6,10 +6,7 @@ function agregarDatosATabla(datos) {
 
   datos.forEach((item) => {
     const fila = document.createElement("tr");
-<<<<<<< HEAD
     
-=======
->>>>>>> ef50b244f187440996ab397606eca35507f94834
 
     const celdaFechaEntrada = document.createElement("td");
     celdaFechaEntrada.textContent = item.fechaEntrada;
@@ -35,14 +32,13 @@ function agregarDatosATabla(datos) {
     celdaEstadoSolicitud.textContent = item.solicitud;
     fila.appendChild(celdaEstadoSolicitud);
 
-<<<<<<< HEAD
     const btnEliminar = document.createElement("button")
     btnEliminar.innerHTML= "Eliminar"
     btnEliminar.className= "bottonE"
-=======
-    const btnEliminar = document.createElement("button");
-    btnEliminar.innerHTML = "Eliminar";
->>>>>>> ef50b244f187440996ab397606eca35507f94834
+
+    // const btnEliminar = document.createElement("button");
+    // btnEliminar.innerHTML = "Eliminar";
+
     fila.appendChild(btnEliminar);
 
     cuerpoTabla.appendChild(fila);
@@ -52,7 +48,6 @@ function agregarDatosATabla(datos) {
         .then(() => {
           fila.remove();
         })
-<<<<<<< HEAD
         .catch((error)=> {
             console.error("Error al eliminar", error)
         });
@@ -63,14 +58,6 @@ function agregarDatosATabla(datos) {
 
 });
 };
-=======
-        .catch((error) => {
-          console.error("Error al eliminar", error);
-        });
-    });
-  });
-}
->>>>>>> ef50b244f187440996ab397606eca35507f94834
 
 
 
@@ -118,14 +105,8 @@ function filtrar() {
 const btnAtras = document.getElementById("btnAtras");
 
 btnAtras.addEventListener("click", function () {
-<<<<<<< HEAD
     window.location.href = "http://localhost:1234/solicitudes.html"
 });
 
 
 
-
-=======
-  window.location.href = "";
-});
->>>>>>> ef50b244f187440996ab397606eca35507f94834
