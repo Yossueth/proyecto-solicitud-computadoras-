@@ -6,7 +6,6 @@ function agregarDatosATabla(datos) {
 
   datos.forEach((item) => {
     const fila = document.createElement("tr");
-    
 
     const celdaFechaEntrada = document.createElement("td");
     celdaFechaEntrada.textContent = item.fechaEntrada;
@@ -32,12 +31,9 @@ function agregarDatosATabla(datos) {
     celdaEstadoSolicitud.textContent = item.solicitud;
     fila.appendChild(celdaEstadoSolicitud);
 
-    const btnEliminar = document.createElement("button")
-    btnEliminar.innerHTML= "Eliminar"
-    btnEliminar.className= "bottonE"
-
-    // const btnEliminar = document.createElement("button");
-    // btnEliminar.innerHTML = "Eliminar";
+    const btnEliminar = document.createElement("button");
+    btnEliminar.innerHTML = "Eliminar";
+    btnEliminar.className = "bottonE";
 
     fila.appendChild(btnEliminar);
 
@@ -48,18 +44,12 @@ function agregarDatosATabla(datos) {
         .then(() => {
           fila.remove();
         })
-        .catch((error)=> {
-            console.error("Error al eliminar", error)
+        .catch((error) => {
+          console.error("Error al eliminar", error);
         });
     });
-
-    
-
-
-});
-};
-
-
+  });
+}
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
@@ -105,8 +95,5 @@ function filtrar() {
 const btnAtras = document.getElementById("btnAtras");
 
 btnAtras.addEventListener("click", function () {
-    window.location.href = "http://localhost:1234/solicitudes.html"
+  window.location.href = "http://localhost:1234/solicitudes.html";
 });
-
-
-

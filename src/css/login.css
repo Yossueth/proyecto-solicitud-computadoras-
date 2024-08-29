@@ -97,3 +97,56 @@ section p a {
   top: 20px;
   position: absolute;
 }
+
+#texto {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 950px;
+}
+
+@media (max-width: 375px) {
+  section {
+    height: 500px;
+    width: 375px;
+    padding: 0.5em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+  }
+
+  section form {
+    max-width: 90%;
+    padding: 1em;
+  }
+
+  section form input {
+    padding: 0.6em;
+  }
+
+  section form input[type="submit"] {
+    padding: 0.8em;
+    font-size: 1em;
+  }
+
+  #cerrarAdmin {
+    font-size: 18px;
+    left: 92%;
+    bottom: 120px;
+  }
+
+  #abrirAdmin {
+    left: 95%;
+    top: 10px;
+  }
+
+  section p {
+    font-size: 0.9em;
+  }
+
+  #texto {
+    color: white;
+  }
+}
