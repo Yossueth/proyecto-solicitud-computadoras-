@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA8AMBIgACEQEDEQH/xAAaAAEBAQADAQAAAAAAAAAAAAABAAIDBQYE/8QAGhABAQEAAwEAAAAAAAAAAAAAAAEREiExAv/EABoBAQEBAQEBAQAAAAAAAAAAAAEAAgMEBQb/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARESAv/aAAwDAQACEQMRAD8A8Egn3H54hJmpBJkoVBlJitViitQCpm1luCs02s1NxmsVusUNxistVlNwVmmipuM1lrWaq1Ay0yGogQK3EkoHQpJF6JBPa+EUNDNRoQ1kkC0ayZDrNqZqrUVYrWs1hqM1itWs2puM1m1qsWhuQVhq1lNxmimipqM0U1mqtQMtMhqKpVBuIHRQ6HVoUSeiGjRr2vi41o3WdWs041otFotZqwi0DQ1h1m1Wss0yLWfqnWbQ1AzTazaG5BayhQ3BWVaNTUgqVFTTNoVCaTJAaioSRiSQalSqVDbve1rGrXs18jGtWsatZONWjRaNFONWs6NFoUhtFotGs1rDazaNGhqRWsWtWsWhqKs2m1nQ1IBUqm2RSKiAlU0AlRSIqkCCEq1CqCG3b6tY1a9OvmY3o1nVq1Y1o1nVrNpxrRo5M6NWNWs2jRotakOi0Ws2prDaLRoDWK0IAxWs01mppUVaEUEkYmTQGkqlQgQVWoEUG3ZatcerXbXgxvVrGrVqxvkNZQtWHVrOjQca3QNGo4aKrRUVQgCrRo1Ii0aqk0AUiAcWA4AcWA4EsKakEiKwNYCcSOPp1azq1vXjxvVrGrQsa1azq1asa6Ws6NRxvRrKMRtQoRwoINTyBWsOLWp5YxY3iwa3PDFixvFg1vhjBjkwYtPDGCxvFg1csYm8FJ5ZOFI4ziwpHGtWs6tWvFjWmVnVq1Y1atZ1JY1q1nUU0hCtMiMRGtzypEStdJ5Zw4SNdJ5GJqRYNbnlnBjeLBrXLGLG8GLTyxYMcmDFq5YsGN4sWjlx4sbGLVyzixrEljh0gLXhxpMk6saiZJ0EiFacMIjUWuk8k4I0NbkSwmDXWRSGRSNQa6TyMOGHGddJ5ZxY1hxa1PLGLG8GLTyxjOOTBYtHLGDG8wLRjGDG6MOjGcWEIY+cJF8xJJIqVIotTxJNxRuJJ0jUKQdIYYUHSNSHEg6wtRIOkRSTcCSRCSQrP0ziRYrN9SSZQSQf/9k=);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+}
+
+section h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1em;
+  font-size: 2.5em;
+  color: white;
+}
+
+section form {
+  padding: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.769);
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA8AMBIgACEQEDEQH/xAAaAAEBAQADAQAAAAAAAAAAAAABAAIDBQYE/8QAGhABAQEAAwEAAAAAAAAAAAAAAAEREiExAv/EABoBAQEBAQEBAQAAAAAAAAAAAAEAAgMEBQb/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARESAv/aAAwDAQACEQMRAD8A8Egn3H54hJmpBJkoVBlJitViitQCpm1luCs02s1NxmsVusUNxistVlNwVmmipuM1lrWaq1Ay0yGogQK3EkoHQpJF6JBPa+EUNDNRoQ1kkC0ayZDrNqZqrUVYrWs1hqM1itWs2puM1m1qsWhuQVhq1lNxmimipqM0U1mqtQMtMhqKpVBuIHRQ6HVoUSeiGjRr2vi41o3WdWs041otFotZqwi0DQ1h1m1Wss0yLWfqnWbQ1AzTazaG5BayhQ3BWVaNTUgqVFTTNoVCaTJAaioSRiSQalSqVDbve1rGrXs18jGtWsatZONWjRaNFONWs6NFoUhtFotGs1rDazaNGhqRWsWtWsWhqKs2m1nQ1IBUqm2RSKiAlU0AlRSIqkCCEq1CqCG3b6tY1a9OvmY3o1nVq1Y1o1nVrNpxrRo5M6NWNWs2jRotakOi0Ws2prDaLRoDWK0IAxWs01mppUVaEUEkYmTQGkqlQgQVWoEUG3ZatcerXbXgxvVrGrVqxvkNZQtWHVrOjQca3QNGo4aKrRUVQgCrRo1Ii0aqk0AUiAcWA4AcWA4EsKakEiKwNYCcSOPp1azq1vXjxvVrGrQsa1azq1asa6Ws6NRxvRrKMRtQoRwoINTyBWsOLWp5YxY3iwa3PDFixvFg1vhjBjkwYtPDGCxvFg1csYm8FJ5ZOFI4ziwpHGtWs6tWvFjWmVnVq1Y1atZ1JY1q1nUU0hCtMiMRGtzypEStdJ5Zw4SNdJ5GJqRYNbnlnBjeLBrXLGLG8GLTyxYMcmDFq5YsGN4sWjlx4sbGLVyzixrEljh0gLXhxpMk6saiZJ0EiFacMIjUWuk8k4I0NbkSwmDXWRSGRSNQa6TyMOGHGddJ5ZxY1hxa1PLGLG8GLTyxjOOTBYtHLGDG8wLRjGDG6MOjGcWEIY+cJF8xJJIqVIotTxJNxRuJJ0jUKQdIYYUHSNSHEg6wtRIOkRSTcCSRCSQrP0ziRYrN9SSZQSQf/9k=);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section form label {
+  width: 100%;
+  padding: 0.2em;
+  margin-bottom: 0.5em;
+  color: white;
+  text-align: center;
+}
+
+section form input {
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 9px;
+  border: none;
+  outline-color: #0a3253;
+  background-color: whitesmoke;
+}
+
+section form input[type="submit"] {
+  margin-top: 1.5em;
+  background-color: #071724;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section form input[type="submit"]:active {
+  transform: scale(0.97);
+}
+
+section p {
+  margin-top: 1.5em;
+  color: white;
+}
+
+section p a {
+  text-decoration: none;
+  color: #0015ff;
+}

@@ -7,7 +7,7 @@
       "fechaSalida": "2024-08-11",
       "fechaEntrada": "2024-09-07",
       "codePc": "99RD7S2",
-      "solicitud": "Aceptada"
+      "solicitud": "Rechazada"
     },
     {
       "id": "98de",
@@ -17,15 +17,116 @@
       "fechaEntrada": "2024-09-07",
       "codePc": "99RD7S2",
       "solicitud": "Aceptada"
+    },
+    {
+      "id": "2ba1",
+      "nombre": "gustabo",
+      "sede": "Santa Ana",
+      "fechaSalida": "2024-08-29",
+      "fechaEntrada": "2024-08-31",
+      "codePc": "12345",
+      "solicitud": "Rechazada"
+    },
+    {
+      "id": "bbc9",
+      "nombre": "carlor",
+      "sede": "Santa Ana",
+      "fechaSalida": "2024-07-29",
+      "fechaEntrada": "2024-09-08",
+      "codePc": "99RD7S2",
+      "solicitud": "Aceptada"
+    },
+    {
+      "id": "c2b0",
+      "nombre": "gustabo",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-29",
+      "fechaEntrada": "2024-09-08",
+      "codePc": "99RD7S2",
+      "solicitud": "Rechazada"
+    },
+    {
+      "id": "805a",
+      "nombre": "marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-09-01",
+      "fechaEntrada": "2024-08-07",
+      "codePc": "12345",
+      "solicitud": "Rechazada"
+    },
+    {
+      "id": "6f2d",
+      "nombre": "marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-09-01",
+      "fechaEntrada": "2024-08-07",
+      "codePc": "12345",
+      "solicitud": "Rechazada"
+    },
+    {
+      "id": "123a",
+      "nombre": "marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-09-01",
+      "fechaEntrada": "2024-08-07",
+      "codePc": "12345",
+      "solicitud": "Rechazada"
+    },
+    {
+      "id": "d070",
+      "nombre": "marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-09-01",
+      "fechaEntrada": "2024-08-07",
+      "codePc": "12345",
+      "solicitud": "Rechazada"
+    },
+    {
+      "id": "34be",
+      "nombre": "marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-09-01",
+      "fechaEntrada": "2024-08-07",
+      "codePc": "12345",
+      "solicitud": "Rechazada"
+    },
+    {
+      "id": "368c",
+      "nombre": "marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-09-01",
+      "fechaEntrada": "2024-08-07",
+      "codePc": "12345",
+      "solicitud": "Rechazada"
+    },
+    {
+      "id": "1868",
+      "nombre": "marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-09-01",
+      "fechaEntrada": "2024-08-07",
+      "codePc": "12345",
+      "solicitud": "Rechazada"
     }
   ],
   "users": [
     {
-
       "id": "3e91",
       "name": "pepe",
       "email": "pepe@pepe",
       "password": "12345678"
+    },
+    {
+      "id": "7bbd",
+      "name": "patrick",
+      "email": "patrick@admin",
+      "password": "12345678"
+    },
+    {
+      "id": "5091",
+      "name": "cris valencia",
+      "email": "patrick@gmail.com",
+      "password": "1234567890"
     }
   ]
 }
