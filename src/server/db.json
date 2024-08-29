@@ -10,41 +10,15 @@
       "solicitud": "Rechazada"
     },
     {
-      "id": "41d0",
-      "nombre": "Marco",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-23",
-      "fechaEntrada": "2024-08-30",
-      "codePc": "123",
-      "solicitud": "Aceptada"
-    },
-    {
-<<<<<<< HEAD
-      "id": "4224",
-      "nombre": "Hola",
-      "sede": "Santa Ana",
-      "fechaSalida": "2024-08-29",
-      "fechaEntrada": "2024-08-23",
-      "codePc": "ui",
-      "solicitud": "Aceptada"
-    },
-    {
-      "id": "e406",
-      "nombre": "Hola",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-14",
+      "id": "98de",
+      "nombre": "Patrickcito",
+      "sede": "el huerto",
+      "fechaSalida": "2024-08-11",
       "fechaEntrada": "2024-09-07",
-      "codePc": "123",
+      "codePc": "99RD7S2",
       "solicitud": "Aceptada"
     },
     {
-      "id": "bb31",
-      "nombre": "Hola45rt6yu",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-14",
-      "fechaEntrada": "2024-09-07",
-      "codePc": "123",
-=======
       "id": "2ba1",
       "nombre": "gustabo",
       "sede": "Santa Ana",
@@ -132,8 +106,16 @@
       "fechaSalida": "2024-09-01",
       "fechaEntrada": "2024-08-07",
       "codePc": "12345",
->>>>>>> ef50b244f187440996ab397606eca35507f94834
       "solicitud": "Rechazada"
+    },
+    {
+      "id": "567d",
+      "nombre": "carlor",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-03",
+      "fechaEntrada": "2024-07-30",
+      "codePc": "222222222222222222222",
+      "solicitud": "pendiente"
     }
   ],
   "users": [
@@ -144,12 +126,6 @@
       "password": "12345678"
     },
     {
-<<<<<<< HEAD
-      "id": "c71f",
-      "name": "Marco",
-      "email": "medina@medina",
-      "password": "12345678"
-=======
       "id": "7bbd",
       "name": "patrick",
       "email": "patrick@admin",
@@ -160,7 +136,6 @@
       "name": "cris valencia",
       "email": "patrick@gmail.com",
       "password": "1234567890"
->>>>>>> ef50b244f187440996ab397606eca35507f94834
     }
   ]
 }
