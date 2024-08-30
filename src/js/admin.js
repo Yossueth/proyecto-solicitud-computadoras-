@@ -109,7 +109,7 @@ function filtrar() {
     return textoFila.includes(valorBusqueda);
     
    });
-   
+//Si es verdadero se añade al espacio y se ocultan las demas, sino las oculta
    filas.forEach(fila => {
    fila.style.display = filasFiltradas.includes(fila) ? "" : "none";
 

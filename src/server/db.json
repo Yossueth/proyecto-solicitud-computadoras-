@@ -37,12 +37,21 @@
       "solicitud": "Aceptada"
     },
     {
-      "id": "bb31",
-      "nombre": "Hola45rt6yu",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-14",
-      "fechaEntrada": "2024-09-07",
-      "codePc": "123",
+      "id": "347c",
+      "nombre": "Marco55504",
+      "sede": "Santa Ana",
+      "fechaSalida": "2024-08-06",
+      "fechaEntrada": "2024-08-24",
+      "codePc": "8cd4",
+      "solicitud": "Aceptada"
+    },
+    {
+      "id": "71dc",
+      "nombre": "Marco55504",
+      "sede": "Santa Ana",
+      "fechaSalida": "2024-08-06",
+      "fechaEntrada": "2024-08-24",
+      "codePc": "8cd4",
       "solicitud": "Rechazada"
     }
   ],
@@ -57,6 +66,24 @@
       "id": "c71f",
       "name": "Marco",
       "email": "medina@medina",
+      "password": "12345678"
+    },
+    {
+      "id": "4b73",
+      "name": "Marco Antonio",
+      "email": "medina@medinasa",
+      "password": "12345678"
+    },
+    {
+      "id": "990e",
+      "name": "Marco Antonio",
+      "email": "medina@ADMIN",
+      "password": "12345678"
+    },
+    {
+      "id": "c988",
+      "name": "Marco Antonio",
+      "email": "medina@medinam3",
       "password": "12345678"
     }
   ]
