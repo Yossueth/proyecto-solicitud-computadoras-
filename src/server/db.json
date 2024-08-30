@@ -1,27 +1,10 @@
 {
   "datos": [
     {
-      "id": "270c",
-      "nombre": "patrick soto",
-      "sede": "Nosara",
-      "fechaSalida": "2024-08-11",
-      "fechaEntrada": "2024-09-07",
-      "codePc": "99RD7S2",
-      "solicitud": "Aceptada"
-    },
-    {
-      "id": "41d0",
-      "nombre": "Marco",
-      "sede": "Puntarenas",
-      "fechaSalida": "2024-08-23",
-      "fechaEntrada": "2024-08-30",
-      "codePc": "123",
-      "solicitud": "Aceptada"
-    },
-    {
-      "id": "4224",
-      "nombre": "Hola",
+      "id": "aabc",
+      "nombre": "carlor",
       "sede": "Santa Ana",
+
       "fechaSalida": "2024-08-29",
       "fechaEntrada": "2024-08-23",
       "codePc": "ui",
@@ -63,9 +46,9 @@
       "password": "12345678"
     },
     {
-      "id": "c71f",
-      "name": "Marco",
-      "email": "medina@medina",
+      "id": "7bbd",
+      "name": "patrick",
+      "email": "patrick@admin",
       "password": "12345678"
     },
     {
@@ -85,6 +68,7 @@
       "name": "Marco Antonio",
       "email": "medina@medinam3",
       "password": "12345678"
+
     }
   ]
 }

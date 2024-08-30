@@ -1,7 +1,5 @@
 import { getDatos, putDatos } from "../services/datos";
 
-
-
 dataPc();
 async function dataPc() {
   let datosPc = await getDatos();
@@ -92,7 +90,6 @@ const btnHistorial = document.getElementById("btnHistorial");
 btnHistorial.addEventListener("click", function () {
     window.location.href = "http://localhost:1234/admin.html"
 });
-
 
 
 // btnAceptar.addEventListener("click", async function () {
