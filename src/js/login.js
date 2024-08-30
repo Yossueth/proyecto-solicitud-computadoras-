@@ -29,7 +29,7 @@ loginForm.addEventListener("submit", async (e) => {
     }
 
     // Redirige al usuario a la página correspondiente según el email
-    if (email.endsWith("@admin")) {
+    if (email.includes("@admin")) {
       // Si el email termina en "@admin", redirige a la página de solicitudes
       window.location.href = "http://localhost:1234/solicitudes.html";
     } else {

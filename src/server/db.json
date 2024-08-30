@@ -103,6 +103,12 @@
       "name": "Marco Antonio",
       "email": "medina@medinaa",
       "password": "12345678"
+    },
+    {
+      "id": "bd0e",
+      "name": "Marco Antonio",
+      "email": "medina@admin",
+      "password": "12345678"
     }
   ]
 }
