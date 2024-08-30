@@ -4,7 +4,6 @@
       "id": "aabc",
       "nombre": "carlor",
       "sede": "Santa Ana",
-
       "fechaSalida": "2024-08-29",
       "fechaEntrada": "2024-08-23",
       "codePc": "ui",
@@ -36,6 +35,24 @@
       "fechaEntrada": "2024-08-24",
       "codePc": "8cd4",
       "solicitud": "Rechazada"
+    },
+    {
+      "id": "a781",
+      "nombre": "Marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-23",
+      "fechaEntrada": "2024-08-31",
+      "codePc": "hhhh",
+      "solicitud": "pendiente"
+    },
+    {
+      "id": "eb83",
+      "nombre": "Marco",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-23",
+      "fechaEntrada": "2024-08-31",
+      "codePc": "hhhh",
+      "solicitud": "pendiente"
     }
   ],
   "users": [
@@ -68,7 +85,24 @@
       "name": "Marco Antonio",
       "email": "medina@medinam3",
       "password": "12345678"
-
+    },
+    {
+      "id": "2817",
+      "name": "Marco Antonio",
+      "email": "pepe@pepes",
+      "password": "12345678"
+    },
+    {
+      "id": "66d7",
+      "name": "Marco Antonio",
+      "email": "medina@medinas",
+      "password": "12345678"
+    },
+    {
+      "id": "2a9c",
+      "name": "Marco Antonio",
+      "email": "medina@medinaa",
+      "password": "12345678"
     }
   ]
 }
