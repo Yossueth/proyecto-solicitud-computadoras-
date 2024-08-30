@@ -1,13 +1,12 @@
 // Importa la función postDatos desde el módulo ../services/datos
 import { postDatos } from "../services/datos";
 
-//variables
+// Variables
 let formulario = document.getElementById("formulario");
 let alerta = document.getElementById("alerta");
 let check = document.getElementById("check");
 
 let abrirModal = document.getElementById("abrirModal");
-
 let cerrarModal = document.getElementById("cerrarModal");
 let modal = document.querySelector(".modal");
 
@@ -37,7 +36,7 @@ formulario.addEventListener("submit", async (e) => {
   // Verifica si el checkbox de términos y condiciones no está marcado
   if (!check.checked) {
     // Muestra un mensaje de alerta si los términos no están aceptados
-    alerta.innerHTML = "Acepta los terminos y condiciones";
+    alerta.innerHTML = "Acepta los términos y condiciones";
 
     // Oculta el mensaje de alerta después de 2 segundos
     setTimeout(() => {
@@ -62,11 +61,13 @@ formulario.addEventListener("submit", async (e) => {
   // Muestra un mensaje de éxito en el elemento de alerta
   alerta.innerHTML = "Solicitud enviada con éxito";
 
+  // Limpia los campos del formulario
+  formulario.reset();
+
   // Oculta el mensaje de éxito después de 3 segundos
   setTimeout(() => {
     alerta.innerHTML = "";
   }, 3000);
-  return;
 });
 
 // Evento 'click' del modal
