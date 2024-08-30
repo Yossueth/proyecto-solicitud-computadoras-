@@ -87,6 +87,24 @@
       "password": "12345678"
     },
     {
+
+      "id": "74bf",
+      "name": "cris valencia",
+      "email": "11Q@ee",
+      "password": "12345678"
+    },
+    {
+      "id": "bd3e",
+      "name": "kelion",
+      "email": "kelion@123",
+      "password": "12345678"
+    },
+    {
+      "id": "1fe7",
+      "name": "cris valencia",
+      "email": "patrick@gmail.com",
+      "password": "123456789"
+
       "id": "2817",
       "name": "Marco Antonio",
       "email": "pepe@pepes",
@@ -109,6 +127,7 @@
       "name": "Marco Antonio",
       "email": "medina@admin",
       "password": "12345678"
+
     }
   ]
 }
