@@ -4,10 +4,38 @@
       "id": "aabc",
       "nombre": "carlor",
       "sede": "Santa Ana",
-      "fechaSalida": "2024-08-03",
-      "fechaEntrada": "2024-09-08",
-      "codePc": "99RD7S2",
-      "solicitud": "pendiente"
+
+      "fechaSalida": "2024-08-29",
+      "fechaEntrada": "2024-08-23",
+      "codePc": "ui",
+      "solicitud": "Aceptada"
+    },
+    {
+      "id": "e406",
+      "nombre": "Hola",
+      "sede": "Puntarenas",
+      "fechaSalida": "2024-08-14",
+      "fechaEntrada": "2024-09-07",
+      "codePc": "123",
+      "solicitud": "Aceptada"
+    },
+    {
+      "id": "347c",
+      "nombre": "Marco55504",
+      "sede": "Santa Ana",
+      "fechaSalida": "2024-08-06",
+      "fechaEntrada": "2024-08-24",
+      "codePc": "8cd4",
+      "solicitud": "Aceptada"
+    },
+    {
+      "id": "71dc",
+      "nombre": "Marco55504",
+      "sede": "Santa Ana",
+      "fechaSalida": "2024-08-06",
+      "fechaEntrada": "2024-08-24",
+      "codePc": "8cd4",
+      "solicitud": "Rechazada"
     }
   ],
   "users": [
@@ -24,16 +52,23 @@
       "password": "12345678"
     },
     {
-      "id": "5091",
-      "name": "cris valencia",
-      "email": "patrick@gmail.com",
-      "password": "1234567890"
+      "id": "4b73",
+      "name": "Marco Antonio",
+      "email": "medina@medinasa",
+      "password": "12345678"
     },
     {
-      "id": "02fd",
-      "name": "pepe",
-      "email": "pepe@pepe1",
-      "password": "123456789"
+      "id": "990e",
+      "name": "Marco Antonio",
+      "email": "medina@ADMIN",
+      "password": "12345678"
+    },
+    {
+      "id": "c988",
+      "name": "Marco Antonio",
+      "email": "medina@medinam3",
+      "password": "12345678"
+
     }
   ]
 }

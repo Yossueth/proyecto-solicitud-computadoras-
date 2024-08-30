@@ -85,6 +85,13 @@ function filtrar() {
     });
     //Esto verifica que lo que esta en la fila sea verdadero o falso dependiendo la busqueda.
     return textoFila.includes(valorBusqueda);
+    
+   });
+//Si es verdadero se añade al espacio y se ocultan las demas, sino las oculta
+   filas.forEach(fila => {
+   fila.style.display = filasFiltradas.includes(fila) ? "" : "none";
+
+=======
   });
 
   filas.forEach((fila) => {
