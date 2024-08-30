@@ -111,6 +111,7 @@ function filtrar() {
 
     // Verifica si el texto de la fila incluye el texto de búsqueda
     return textoFila.includes(valorBusqueda);
+
   });
 
   // Muestra solo las filas que coinciden con la búsqueda y oculta las demás
