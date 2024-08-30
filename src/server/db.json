@@ -4,7 +4,6 @@
       "id": "aabc",
       "nombre": "carlor",
       "sede": "Santa Ana",
-
       "fechaSalida": "2024-08-29",
       "fechaEntrada": "2024-08-23",
       "codePc": "ui",
@@ -68,7 +67,12 @@
       "name": "Marco Antonio",
       "email": "medina@medinam3",
       "password": "12345678"
-
+    },
+    {
+      "id": "2817",
+      "name": "Marco Antonio",
+      "email": "pepe@pepes",
+      "password": "12345678"
     }
   ]
 }

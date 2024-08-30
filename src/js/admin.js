@@ -91,7 +91,7 @@ function filtrar() {
    filas.forEach(fila => {
    fila.style.display = filasFiltradas.includes(fila) ? "" : "none";
 
-=======
+
   });
 
   filas.forEach((fila) => {
