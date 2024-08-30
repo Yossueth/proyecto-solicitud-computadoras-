@@ -31,7 +31,7 @@ formulario.addEventListener("submit", async (e) => {
     setTimeout(() => {
       alerta.innerHTML = "";
     }, 2000);
-    return; 
+    return;
   }
 
   // Verifica si el checkbox de términos y condiciones no está marcado
@@ -53,10 +53,10 @@ formulario.addEventListener("submit", async (e) => {
     fechaSalida: fechaSalida,
     fechaEntrada: fechaEntrada,
     codePc: codePc,
-    solicitud: "pendiente", 
+    solicitud: "pendiente",
   };
 
-  // Envía los datos del formulario al servidor 
+  // Envía los datos del formulario al servidor
   await postDatos(datos);
 
   // Muestra un mensaje de éxito en el elemento de alerta
@@ -66,7 +66,7 @@ formulario.addEventListener("submit", async (e) => {
   setTimeout(() => {
     alerta.innerHTML = "";
   }, 3000);
-  return; 
+  return;
 });
 
 // Evento 'click' del modal

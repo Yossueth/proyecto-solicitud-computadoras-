@@ -4,7 +4,6 @@
       "id": "aabc",
       "nombre": "carlor",
       "sede": "Santa Ana",
-
       "fechaSalida": "2024-08-29",
       "fechaEntrada": "2024-08-23",
       "codePc": "ui",
@@ -68,7 +67,24 @@
       "name": "Marco Antonio",
       "email": "medina@medinam3",
       "password": "12345678"
-
+    },
+    {
+      "id": "74bf",
+      "name": "cris valencia",
+      "email": "11Q@ee",
+      "password": "12345678"
+    },
+    {
+      "id": "bd3e",
+      "name": "kelion",
+      "email": "kelion@123",
+      "password": "12345678"
+    },
+    {
+      "id": "1fe7",
+      "name": "cris valencia",
+      "email": "patrick@gmail.com",
+      "password": "123456789"
     }
   ]
 }
